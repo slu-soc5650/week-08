@@ -19,6 +19,7 @@ before_test:
       }
   - ps: $env:Path += ";C:\Program Files (x86)\Pandoc\"
   - pandoc -v
+  - Rscript -e "tidycensus::census_api_key(key = '53fc755a8599dfb7e6596b320e7eac0b3f36105d')"
 
 environment:
   global:
@@ -45,9 +46,6 @@ matrix:
 
 build_script:
   - travis-tool.sh install_deps
-
-before_test:
-  - Rscript -e "tidycensus::census_api_key(key = '53fc755a8599dfb7e6596b320e7eac0b3f36105d')"
 
 test_script:
   - Rscript -e "rmarkdown::render('examples/lecture-08b.Rmd')"
