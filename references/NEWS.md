@@ -6,5 +6,5 @@
 * Update `.gitignore`
 * Add `NEWS_SITE.md` for tracking changes specific to the corresponding page on the course website
 * Add all lecture materials
-* Re-organize around new course template, including add new files - `INDEX.md`, `SETUP.md`, and `REFERENCE.md`
+* Re-organize around new course template, including adding new reference files - `DATA.md`, `INDEX.md`, `SETUP.md`, and `REFERENCE.md`
 * Enable testing with travis and appveyor

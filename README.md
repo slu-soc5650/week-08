@@ -21,9 +21,9 @@ At the end of this lecture and its corresponding assignments, students should be
 
 ### Lecture Resources
 
-* The [`SETUP.md`](/SETUP.md) file contains a list of packages required for this lecture
-* The [`INDEX.md`](/INDEX.md) file contains a list of key topics, packages, and tools for this lecture
-* The corresponding videos for this lecture can be found on the [lecture website](https://slu-soc5650.github.io/lecture-08)
+* The [lecture webpage](https://slu-soc5650.github.io/lecture-08) contains links to resources as well as the corresponding videos for this lecture
+* The [`SETUP.md`](/references/SETUP.md) file in the [`references/`](/references) directory contains a list of packages required for this lecture
+* The [`references/`](/references) directory also contains other notes on changes to the repository, key topics, terms, data sources, and software. Some of this information is a duplicate of material on the course website.
 * Handouts for this lecture, including a summary of functions introduced, are available in the [`handouts/`](/handouts) directory
 * Two example `R` notebooks are available in the [`examples/`](/examples) directory
 * The Lab-07 instructions and replication materials are available in the [`assignments/`](/assignments/lab-07) directory
