@@ -8,20 +8,35 @@ lecture-08 <img src="https://slu-soc5650.github.io/images/logo.png" align="right
 [![Travis-CI Build Status](https://travis-ci.org/slu-soc5650/lecture-08.svg?branch=master)](https://travis-ci.org/slu-soc5650/lecture-08)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-soc5650/lecture-08?branch=master&svg=true)](https://ci.appveyor.com/project/slu-soc5650/lecture-08)
 
-This repository contains files for:
+This is the repository for Lecture 08 of the Saint Louis University course SOC 4650/5650 - Introduction to GIS. This lecture covers tools for accessing demographic and gemetric data both from the web and using `R`. The `R` packages `tidycensus` and `tigris` are introduced.
 
--   `LICENSE.md`
--   `README.md`
--   `.gitignore`
+### Lecture Objectives
+At the end of this lecture and its corresponding assignments, students should be able to:
 
-### License Information
-The included code is licensed under a [GNU General Public License v3.0](https://www.gnu.org/licenses/gpl-3.0.en.html) (see [`LICENSE`](LICENSE)). All exercises (including labs, problem sets, lecture preps, and other activities), documentation files, and lecture slides are licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/) (see [`LICENSE_TEXT.md`](LICENSE_TEXT.md)).
+1. **Locate** demographic data using the U.S. Census Bureau's website American Fact Finder
+2. **Identify** U.S. Census Bureau data products and **distinguish** between them
+3. **Use** `tidycensus` to download demographic data
+4. **Use** `tigris` to download corresponding geometric data for census geographies
+5. **Compose** `R` notebooks that download, properly format, and export raw demographic data and their corresponding shapefiles
 
-### About SOC 4650 & 5650: Introduction to GIS
+### Lecture Resources
+
+* The corresponding videos for this lecture can be found on the [lecture website](https://slu-soc5650.github.io/lecture-08)
+* Two example `R` notebooks are available in the [`examples/`](https://github.com/slu-soc5650/lecture-08/tree/master/examples) directory
+
+### Access Lecture
+Students in my course should clone this repository into their course folder system. Others can quickly download this lecture to their `Desktop` using `usethis`:
+
+```r
+usethis::use_course("https://github.com/slu-soc5650/lecture-08/archive/master.zip")
+```
+
+## About SOC 4650 & 5650: Introduction to GIS
+### Course Description
 This class introduces both the theoretical and technical skills that constitute the nascent field of Geographic Information Science (GISc). Techniques introduced include data cleaning and management, map production and cartography, and the manipulation of both tabular and spatial data. The impacts of GISc on public policy, and the effects of public policy on GISc, are also discussed. The course incorporates a wide variety of social, economic, health, urban, meteorological, and environmental data. These data are mapped at a variety of extents, from the City of St. Louis to the St. Louis Metropolitan region, Missouri, all United States counties, and all U.S. states. More details are available on the [course website](https://slu-soc5650.github.io).
 
 ### About Christopher Prener, Ph.D.
 Chris is an urban and medical sociologist with an interest in mixed methods research designs that incorporate spatial data. His dissertation examined the effect of neighborhood context and conditions on emergency medical services work, particularly with patients who have mental illnesses or substance use disorders. He is also part of a research team examining the effects of literacy on mental health service use and recovery, and his student research team is documenting the effects of systemic street closures in St. Louis. He is an Assistant Professor in the Department of Sociology and Anthropology at Saint Louis University. More details are available at [his website](https://chris-prener.github.io) and he can be contacted at [chris.prener@slu.edu](mailto:chris.prener@slu.edu).
 
 ### About Saint Louis University <img src="https://slu-soc5650.github.io/images/sluLogo.png" align="right" />
-[Saint Louis University](http://wwww.slu.edu) is a Catholic, Jesuit institution that values academic excellence, life-changing research, compassionate health care, and a strong commitment to faith and service. Founded in 1818, the University fosters the intellectual and character development of more than 13,000 students on two campuses in St. Louis and Madrid, Spain. Building on a legacy of nearly 200 years, Saint Louis University continues to move forward with an unwavering commitment to a higher purpose, a greater good.
+Founded in 1818, [Saint Louis University](http://wwww.slu.edu) is one of the nation’s oldest and most prestigious Catholic institutions. Rooted in Jesuit values and its pioneering history as the first university west of the Mississippi River, SLU offers nearly 13,000 students a rigorous, transformative education of the whole person. At the core of the University’s diverse community of scholars is SLU’s service-focused mission, which challenges and prepares students to make the world a better, more just place.
