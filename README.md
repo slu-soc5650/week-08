@@ -13,16 +13,19 @@ This is the repository for Lecture 08 of the Saint Louis University course SOC 4
 ### Lecture Objectives
 At the end of this lecture and its corresponding assignments, students should be able to:
 
-1. **Locate** demographic data using the U.S. Census Bureau's website American Fact Finder
-2. **Identify** U.S. Census Bureau data products and **distinguish** between them
-3. **Use** `tidycensus` to download demographic data
-4. **Use** `tigris` to download corresponding geometric data for census geographies
-5. **Compose** `R` notebooks that download, properly format, and export raw demographic data and their corresponding shapefiles
+1. Locate demographic data using the U.S. Census Bureau's website American Fact Finder
+2. Identify and distinguish between U.S. Census Bureau data products
+3. Use `tidycensus` to download demographic data
+4. Use `tigris` to download corresponding geometric data for census geographies
+5. Compose `R` notebooks that download, properly format, and export raw demographic data and their corresponding shapefiles
 
 ### Lecture Resources
 
+* The [`SETUP.md`](/SETUP.md) file contains a list of packages required for this lecture
 * The corresponding videos for this lecture can be found on the [lecture website](https://slu-soc5650.github.io/lecture-08)
-* Two example `R` notebooks are available in the [`examples/`](https://github.com/slu-soc5650/lecture-08/tree/master/examples) directory
+* Handouts for this lecture, including a summary of functions introduced, are available in the [`handouts/`](/handouts) directory
+* Two example `R` notebooks are available in the [`examples/`](/examples) directory
+* The Lab-07 replication materials are available in the [`assignments/`](/assignments/lab-07) directory
 
 ### Access Lecture
 Students in my course should clone this repository into their course folder system. Others can quickly download this lecture to their `Desktop` using `usethis`:
