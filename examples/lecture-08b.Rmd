@@ -7,8 +7,13 @@ output:
   html_notebook: default 
 ---
 
+```{r install-api-key, message=FALSE, echo=FALSE}
+# DO NOT INCLUDE THIS CODE CHUNK IN YOUR OWN ASSIGNMENT FILES - THIS IS FOR CODE TESTING ONLY
+tidycensus::census_api_key(key = '53fc755a8599dfb7e6596b320e7eac0b3f36105d', install = FALSE)
+```
+
 ## Introduction
-This is the lecture notebook for Lecture-08b from the course SOC 4650/5650: Introduction to GISc. 
+This is the lecture notebook for Lecture-08b from the course SOC 4650/5650: Introduction to GISc.
 
 ## Load Dependencies
 The following code loads the package dependencies for our analysis:
