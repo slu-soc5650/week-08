@@ -8,7 +8,7 @@ lecture-08 <img src="https://slu-soc5650.github.io/images/logo.png" align="right
 [![Travis-CI Build Status](https://travis-ci.org/slu-soc5650/lecture-08.svg?branch=master)](https://travis-ci.org/slu-soc5650/lecture-08)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-soc5650/lecture-08?branch=master&svg=true)](https://ci.appveyor.com/project/slu-soc5650/lecture-08)
 
-This is the repository for Lecture 08 of the Saint Louis University course SOC 4650/5650 - Introduction to GIS. This lecture covers tools for accessing demographic and gemetric data both from the web and using `R`. The `R` packages `tidycensus` and `tigris` are introduced.
+This is the repository for Lecture 08 of the Saint Louis University course SOC 4650/5650 - Introduction to GIS. This lecture covers tools for accessing demographic and geometric data both from the web and using `R`. The `R` packages `tidycensus` and `tigris` are introduced.
 
 ### Lecture Objectives
 At the end of this lecture and its corresponding assignments, students should be able to:
@@ -22,6 +22,7 @@ At the end of this lecture and its corresponding assignments, students should be
 ### Lecture Resources
 
 * The [`SETUP.md`](/SETUP.md) file contains a list of packages required for this lecture
+* The [`INDEX.md`](/INDEX.md) file contains a list of key topics, packages, and tools for this lecture
 * The corresponding videos for this lecture can be found on the [lecture website](https://slu-soc5650.github.io/lecture-08)
 * Handouts for this lecture, including a summary of functions introduced, are available in the [`handouts/`](/handouts) directory
 * Two example `R` notebooks are available in the [`examples/`](/examples) directory
