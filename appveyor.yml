@@ -47,7 +47,6 @@ build_script:
   - travis-tool.sh install_deps
 
 test_script:
-#  - Rscript -e "tidycensus::census_api_key(key = '53fc755a8599dfb7e6596b320e7eac0b3f36105d', install = TRUE)"
   - Rscript -e "rmarkdown::render('examples/lecture-08b.Rmd')"
   - Rscript -e "rmarkdown::render('examples/lecture-08c.Rmd')"
   - Rscript -e "rmarkdown::render('assignments/lab-07/lab-07-replication/docs/lab-07.Rmd')"
