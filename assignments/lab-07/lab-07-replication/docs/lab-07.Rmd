@@ -73,7 +73,7 @@ moCounties <- st_as_sf(moCounties)
 Once downloaded, we'll save the sf object as a `.shp` file:
 
 ```{r write-county-geometry}
-st_write(moCounties, here("data", "MO_BOUNDARY_Counties.shp"))
+st_write(moCounties, here("data", "MO_BOUNDARY_Counties.shp"), delete_dsn = TRUE)
 ```
 
 We now have the raw data saved to our `data/` folder.
@@ -89,7 +89,7 @@ slcTracts <- st_as_sf(slcTracts)
 Once downloaded, we'll save the sf object as a `.shp` file:
 
 ```{r write-tract-geometry}
-st_write(slcTracts, here("data", "SLC_DEMOS_Tracts.shp"))
+st_write(slcTracts, here("data", "SLC_DEMOS_Tracts.shp"), delete_dsn = TRUE)
 ```
 
 We now have the raw data saved to our `data/` folder.

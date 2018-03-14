@@ -30,7 +30,7 @@ states <- states(cb = TRUE, resolution = "500k")
 
 The data come into `R` as `sp` objects, which are different than the `sf` objects we have been working with this semester. We can use the `st_as_sf()` function to convert it to an `sf` object that we then can use `dplyr` functions like `filter()` to modify:
 
-```{r}
+```{r clean-states}
 states %>%
   st_as_sf() %>%
   filter(NAME == "Missouri") -> mo
@@ -38,7 +38,7 @@ states %>%
 
 Once we have the data in `sf` format, we can then map them using `ggplot2`:
 
-```{r}
+```{r map-states}
 ggplot() +
   geom_sf(data = mo)
 ```
@@ -46,19 +46,19 @@ ggplot() +
 ### County Data
 The county data from `tigris` can be similarly downloaded by using `counties()`:
 
-```{r}
+```{r get-counties}
 moCounties <- counties(state = "Missouri", cb = TRUE, resolution = "20m")
 ```
 
 As before, we need to make sure we convert the object `moCounties` from `sp` to `sf` by using the `st_as_sf()` function. Since we're not subsetting any data this time, we don't need to include it in a pipe.
 
-```{r}
+```{r clean-counties}
 moCounties <- st_as_sf(moCounties)
 ```
 
 Finally, we can map our very generalized county boundary data using `ggplot2` as usual:
 
-```{r}
+```{r map-counties}
 ggplot() +
   geom_sf(data = moCounties)
 ```
@@ -66,7 +66,7 @@ ggplot() +
 ## Census Geography
 Census geography at multiple levels can be downloaded using a series of functions - `tracts()`, `block_groups()`, and `blocks()`. Here, we'll download the census tracts for the City of St. Louis using both the state and county FIPS codes:
 
-```{r}
+```{r get-tracts}
 stlTracts <- tracts(state = 29, county = 510)
 ```
 
@@ -74,7 +74,7 @@ We could also use strings like "Missouri" and "St. Louis city" for these respect
 
 As we have done above, we can convert our `stlTracts` object to an `sf` object before we map it using `ggplot2`:
 
-```{r}
+```{r clean-map-tracts}
 stlTracts <- st_as_sf(stlTracts)
 
 ggplot() +
@@ -83,7 +83,7 @@ ggplot() +
 
 Finally, here is what the syntax for downloading the census block group data looks like:
 
-```{r}
+```{r get-blockgroups}
 stlBG <- block_groups(state = 29, county = 510)
 ```
 
