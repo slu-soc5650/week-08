@@ -25,7 +25,7 @@ At the end of this lecture and its corresponding assignments, students should be
 * The corresponding videos for this lecture can be found on the [lecture website](https://slu-soc5650.github.io/lecture-08)
 * Handouts for this lecture, including a summary of functions introduced, are available in the [`handouts/`](/handouts) directory
 * Two example `R` notebooks are available in the [`examples/`](/examples) directory
-* The Lab-07 replication materials are available in the [`assignments/`](/assignments/lab-07) directory
+* The Lab-07 instructions and replication materials are available in the [`assignments/`](/assignments/lab-07) directory
 
 ### Access Lecture
 Students in my course should clone this repository into their course folder system. Others can quickly download this lecture to their `Desktop` using `usethis`:
