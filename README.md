@@ -6,7 +6,7 @@ lecture-08 <img src="https://slu-soc5650.github.io/images/logo.png" align="right
 [![](https://img.shields.io/github/last-commit/slu-soc5650/lecture-08.svg)](https://github.com/slu-soc5650/lecture-08/commits/master)
 [![](https://img.shields.io/github/repo-size/slu-soc5650/lecture-08.svg)](https://github.com/slu-soc5650/lecture-08)
 [![Travis-CI Build Status](https://travis-ci.org/slu-soc5650/lecture-08.svg?branch=master)](https://travis-ci.org/slu-soc5650/lecture-08)
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-soc5650/lecture-08?branch=master&svg=true)](https://ci.appveyor.com/project/slu-soc5650/lecture-08)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-soc5650/lecture-08?branch=master&svg=true)](https://ci.appveyor.com/project/chris-prener/lecture-08)
 
 This is the repository for Lecture 08 of the Saint Louis University course SOC 4650/5650 - Introduction to GIS. This lecture covers tools for accessing demographic and geometric data both from the web and using `R`. The `R` packages `tidycensus` and `tigris` are introduced.
 
