@@ -8,7 +8,7 @@ Description: This is the repository for Lecture 08 of the Saint Louis University
     accessing demographic and gemetric data both from the web and using R. The
     R packages tidycensus and tigris are introduced.
 Depends: R (>= 3.3)
-License: GPL-3 + file LICENSE
+License: GPL-3
 Encoding: UTF-8
 URL: https://github.com/slu-soc5650/lecture-08
 BugReports: https://github.com/slu-soc5650/lecture-08/issues
